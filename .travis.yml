@@ -1,8 +1,9 @@
 language: java
 deploy:
+  on:
+    branch: main
   skip_cleanup: true
   provider: heroku
   app: myapp-sarehp
-  branch: main
   api_key:
     secure: aQaPRRfXGX2QWG4jnqlsvnnNu/19PcVXQl2WR8lzIYDT5o83Om0KJLblIe4ZrnulLlh/9DsgziiyDp6YJHouLKXEYt99G2zFxzXHF3Q6Y8kSOASswGJIIechuWe8E97nW2j3P+zLfCUYjfYneVkAVkHTfI2yFddSesW3r54GWPyGH6lRVbYqZQV2xVcEeYYBE8F91wr2+paw8SaSUQmT4tDpWfD5w+Gp3yvrel21ysZxFzg53c2TNbIDE+RfS+KKaP5u+S6BoR8GLPX09Z0QvKbgafydu+6fmKcreZUjpA/Kgoc76fk7x/DsSFaL55n8ui2ym0Jh0+mepgAvuVjsgo/LpZPckde4Uh7Cv7zs00bBFnCr81Trj2M5mrLOU1r0uDzALuUUsgoGQevEkota9JDQ9bJsqFZJnQhXciJfJwl1Z4K3GwTFKNt0pZ7HgxB9fQPiyaggKmYCXuE9f11Mw4iD1ytoCDjmJiE1Le8/ZK8A+YeAXzqoeMiVTGNiOMb9YvvJHuaHvAdlKiU0Wlz0jS0mLT9YB5vZfpPOOHHE7dH5IDqgKftlifuHpbsxeAQlMKUL1a9Pd6op4xxhi1P5GqmRznkZbaF/TZQ2g10dokMoJchh+d/Xvtr+c7JWvrwlSPR5sowaUbqxAoIz8FijVGvBuvzw92/UYTDlMFKpKXY=
