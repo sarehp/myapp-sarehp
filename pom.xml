@@ -79,7 +79,7 @@
           <appName>myapp-sarehp</appName>
           <processTypes>
             <!-- Tell Heroku how to launch your application -->
-            <web>java -cp ./target/my-app-1.0-jar-with-dependencies.jar urjc.isi.myapp.Main</web>
+            <web>java -cp ./target/myapp-1.0-jar-with-dependencies.jar urjc.isi.myapp.Main</web>
           </processTypes>
         </configuration>
       </plugin>
